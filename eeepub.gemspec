@@ -1,12 +1,13 @@
 # -*- encoding: utf-8 -*-
+require 'eeepub/version'
 
 Gem::Specification.new do |s|
   s.name        = "eeepub"
-  s.version     = "0.8.0"
+  s.version     = EeePub::VERSION
   s.platform    = Gem::Platform::RUBY
-  s.authors     = ["jugyo"]
-  s.email       = ["jugyo.org@gmail.com"]
-  s.homepage    = "http://github.com/jugyo/eeepub"
+  s.authors     = ["jugyo","Merovex"]
+  s.email       = ["dausha@gmail.com"]
+  s.homepage    = "http://github.com/Merovex/eeepub"
   s.summary     = %q{ePub generator}
   s.description = %q{EeePub is a Ruby ePub generator.}
 
